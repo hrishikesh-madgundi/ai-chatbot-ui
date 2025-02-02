@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { CheckCircle2, Clock, AlertCircle } from "lucide-react"
@@ -34,7 +34,7 @@ export default function SetupOrganization({ onComplete }: SetupOrganizationProps
     website: "",
     description: "",
   })
-  const [scrapedPages, setScrapedPages] = useState(dummyPages)
+  const [scrapedPages] = useState(dummyPages)
   const [selectedPage, setSelectedPage] = useState("")
   const [progress, setProgress] = useState(0)
 

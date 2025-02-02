@@ -78,7 +78,7 @@ export default function ChatbotIntegration() {
                 <TabsContent value="code">
                   <div className="space-y-4">
                     <p className="text-sm text-muted-foreground">
-                      Copy and paste the following code within the {"<head>"} tag of your website:
+                      Copy and paste the following code within the {`<head>`} tag of your website:
                     </p>
                     <Textarea
                       readOnly
@@ -157,7 +157,8 @@ export default function ChatbotIntegration() {
                 Integration Not Detected
               </CardTitle>
               <CardDescription className="text-yellow-200">
-                We couldn't detect the chatbot on your website. Please ensure you've correctly integrated the code.
+                We couldn&apos;t detect the chatbot on your website. Please ensure you&apos;ve correctly integrated the
+                code.
               </CardDescription>
             </CardHeader>
             <CardContent>
