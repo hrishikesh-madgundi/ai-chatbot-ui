@@ -95,7 +95,7 @@ export default function ChatbotIntegration() {
                 <TabsContent value="email">
                   <div className="space-y-4">
                     <div className="space-y-2">
-                      <Label htmlFor="developerEmail">Developer's Email</Label>
+                      <Label htmlFor="developerEmail">Developers Email</Label>
                       <Input id="developerEmail" placeholder="Enter email address" />
                     </div>
                     <Button className="w-full">Send Instructions</Button>
